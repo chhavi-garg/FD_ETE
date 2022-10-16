@@ -47,6 +47,12 @@
       "email": "arya@email.in",
       "password": "hehehehehe",
       "id": 8
+    },
+    {
+      "username": "Chhavi",
+      "email": "chhavi@gmail.com",
+      "password": "cutie",
+      "id": 9
     }
   ]
 }

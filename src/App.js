@@ -6,6 +6,7 @@ import BlogDetails from './components/BlogDetails';
 import NotFound from './components/NotFound';
 import Edit from "./components/Edit";
 import SignUp from './components/SignUp';
+import Login from './components/Login';
 
 
 // function App() {
@@ -49,6 +50,9 @@ function App() {
             </Route>
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/login">
+             <Login />
             </Route>
             <Route path="/signup">
              <SignUp />
