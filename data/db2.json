@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "username": "raghav1",
+      "email": "raghav1@gmail.com",
+      "password": "raghav1",
+      "id": 1
+    },
+    {
+      "username": "raghav2",
+      "email": "raghav2@gmail.com",
+      "password": "raghav2",
+      "id": 2
+    },
+    {
+      "username": "usdbc",
+      "email": "nciken",
+      "password": "nowfow",
+      "id": 3
+    },
+    {
+      "username": "chhavi",
+      "email": "chhavu.g@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "username": "anonum",
+      "email": "anony@gmail.com",
+      "password": "87973245",
+      "id": 5
+    },
+    {
+      "username": "ps",
+      "email": "ps@gmail.com",
+      "password": "qwerrty",
+      "id": 6
+    },
+    {
+      "username": "haileybeiber",
+      "email": "hailey@gmail.com",
+      "password": "justin",
+      "id": 7
+    },
+    {
+      "username": "arya",
+      "email": "arya@email.in",
+      "password": "hehehehehe",
+      "id": 8
+    }
+  ]
+}
