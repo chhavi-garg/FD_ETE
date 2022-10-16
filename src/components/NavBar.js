@@ -13,7 +13,7 @@ const NavBar = () => {
     // }
     return (
         <nav className="navbar">
-            <h1>The Learner's Blog</h1>
+            <h1>Good Reads</h1>
             <div className="links-left">
                 <Link to="/"> Blogs List</Link>
                 <Link to="/create"> Add Blog</Link>
