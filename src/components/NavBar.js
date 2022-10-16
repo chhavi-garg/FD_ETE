@@ -20,8 +20,9 @@ const NavBar = () => {
                 {/* <button onClick={handleClick}>Click Me</button>
                 <button onClick={handleClickAgain('Chhavi')}>Click Me Again</button> */}
             </div>
+            <h1 className="username">Welcome {username}! </h1>
             <div className="links-right">
-                <h1>Welcome {username}! </h1>
+                
                 <Link to="/" style={{ 
                     color: 'white', 
                     backgroundColor: '#f1356d',
