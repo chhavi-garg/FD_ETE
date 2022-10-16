@@ -126,7 +126,7 @@
   color: #f1356d;
   margin-bottom: 30px;
 }
-.signup input, .signup textarea, .signup select {
+.signup input, .signup select {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
@@ -135,6 +135,38 @@
   display: block;
 }
 .signup button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* login  */
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.login label {
+  text-align: left;
+  display: block;
+}
+.login h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.login input, .login select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.login button {
   background: #f1356d;
   color: #fff;
   border: 0;
