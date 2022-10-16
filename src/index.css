@@ -104,6 +104,7 @@
 }
 .create button {
   background: #f1356d;
+  font-size: 18px;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -136,9 +137,10 @@
 }
 .signup button {
   background: #f1356d;
+  font-size: 18px;
   color: #fff;
   border: 0;
-  padding: 8px;
+  padding: 12px;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -167,6 +169,7 @@
   display: block;
 }
 .login button {
+  font-size: 18px;
   background: #f1356d;
   color: #fff;
   border: 0;
