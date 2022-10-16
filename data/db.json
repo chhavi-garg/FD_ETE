@@ -1,0 +1,60 @@
+{
+  "blogs": [
+    {
+      "title": "Opening Party For All",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "ZeeZee",
+      "imageUrl": "https://res.cloudinary.com/people-matters/image/upload/fl_immutable_cache,w_624,h_351,q_auto,f_auto/v1603363176/1603363175.jpg",
+      "id": 1
+    },
+    {
+      "title": "How small acts of kindness can make you happier and healthier",
+      "body": "What we found was surprising: for people who didn’t consistently enact behaviours outside of their normal routine, kind acts had no effect on their well-being. However, for those who fully engaged in the study by consistently enacting behaviours outside of their normal routine, acts of kindness had bigger boosts to their well-being and mental health compared to those who treated themselves.Research has also suggested that leading a meaningful life is a significant predictor of feeling good. It is likely that spending your limited resources and energies on other people can help boost this sense of meaning, making life more fulfilling and worthy of living. In contrast, spending — whether time, money or effort — on yourself doesn’t seem to have the same benefits.",
+      "author": "Yoshi",
+      "imageUrl": "https://media.istockphoto.com/photos/kindness-word-written-in-wooden-cube-on-a-light-background-picture-id1221634802?k=20&m=1221634802&s=612x612&w=0&h=yEUkMjXP9f7xjuCNZijJUX6Yq0Mn5zjqg-jVB-M9v1A=",
+      "id": 2
+    },
+    {
+      "title": "Humanity",
+      "body": "As humans are progressing as a human race into the future, the true essence of humanity is being corrupted slowly. It is essential to remember that the acts of humanity must not have any kind of personal gain behind them like fame, money or power.The world we live in today is divided by borders but the reach we can have is limitless. We are lucky enough to have the freedom to travel anywhere and experience anything we wish for. A lot of nations fight constantly to acquire land which results in the loss of many innocent lives. Similarly, other humanitarian crisis like the ones in Yemen, Syria, Myanmar and more costs the lives of more than millions of people. The situation is not resolving anytime soon, thus we need humanity for this. Most importantly, humanity does not just limit to humans but also caring for the environment and every living being. We must all come together to show true humanity and help out other humans, animals and our environment to heal and prosper.",
+      "author": "Mario",
+      "imageUrl": "https://serudsindia.org/wp-content/uploads/2019/07/Humanity-Still-Exists.png",
+      "id": 3
+    },
+    {
+      "title": "Importance of Education",
+      "body": "First of all, Education teaches the ability to read and write. Reading and writing is the first step in Education. Most information is done by writing. Hence, the lack of writing skill means missing out on a lot of information. Consequently, Education makes people literate. Above all, Education is extremely important for employment. It certainly is a great opportunity to make a decent living. This is due to the skills of a high paying job that Education provides. Uneducated people are probably at a huge disadvantage when it comes to jobs. It seems like many poor people improve their lives with the help of Education.",
+      "author": "Ekta",
+      "imageUrl": "https://www.uopeople.edu/wp-content/uploads/bb-plugin/cache/10-Benefits-of-Education-That-Will-Surprise-You-landscape.jpg",
+      "id": 4
+    },
+    {
+      "title": "Travelling",
+      "body": "While the reasons for travelling are many, we must not forget that it can be a refreshing experience. Travelling is an experience that can teach us so many things that you cannot possibly learn while living at home.Firstly, it teaches you how to make new friends. The world is full of people who love interacting. You get to make friends when you travel to new places and spend quality time with them. Moreover, it also helps you enhance your social skills. After that, travelling is great for learning new skills. For instance, going to mountain regions teaches you how to trek. Similarly, going to beaches helps you learn scuba diving or surfing. You can also enjoy the beauty of nature when you travel. Similarly, you get to explore nature like never before and find discover the earth’s beauty. Travelling also helps us understand people.",
+      "author": "Nyra",
+      "imageUrl": "http://www.utterspokenword.com/wp-content/uploads/2019/11/travelling-smart-tips-for-travel-750x632.jpg",
+      "id": 5
+    },
+    {
+      "title": "India - Our Motherland",
+      "body": "India, our country is the finest example of ‘unity in diversity. People from different backgrounds and religions live here in peace and harmony. Moreover, our country is known for having a variety of languages. So much so that you will find a different language at every 100 kilometres in our country. Through our country essay, we will take you through what India is.",
+      "author": "Chhavi",
+      "imageUrl": "https://serudsindia.org/wp-content/uploads/2019/07/Humanity-Still-Exists.png",
+      "id": 6
+    },
+    {
+      "title": "Cool Kids",
+      "body": "Cool Kids\" is the debut single song by American indie pop band Echosmith from their 2013 debut studio album, Talking Dreams. The song was written by Echosmith, Jeffery David, and Jesiah Dzwonek. It was produced by Mike Elizondo, with additional production on the radio edit by Rob Cavallo. \"Cool Kids\" was originally released on May 31, 2013, as the iTunes Store Single of the Week and officially impacted United States radio the following year. The song subsequently became a sleeper hit, peaking at number 13 on the Billboard Hot 100 and receiving airplay on US modern rock, hot adult contemporary, and contemporary hit radio stations.",
+      "author": "Somone",
+      "imageUrl": "https://media.istockphoto.com/photos/cool-kids-picture-id80470578?k=20&m=80470578&s=170667a&w=0&h=WbsTQNymelPKax1w_8pD_W8n5PbNcMs8yYMEWzQSiVc=",
+      "id": 7
+    },
+    {
+      "title": "Good Vibes",
+      "body": "Good vibes come to you when you put them out.  If you want people to be cool to you, then you better be cool to them.  We want the encounters we have with people throughout the day to constantly be awesome and beneficial to you.  The only thing you have to do is be awesome and beneficial to other people.  When you walk out of a store, hold the door for the next person.  Let someone into traffic.  Be nice to the cashier, get along with everyone.  You will notice that other people will start being much better to you.  Friends, family and even strangers will be awesome and hook you up when you're in need because you will do the same for them.  Make it pleasant for you to be around in public and you'll receive those good vibes back. ",
+      "author": "Chhavi",
+      "imageUrl": "http://casanuratti.com/wp-content/uploads/2018/12/87127255-positive-vibes-only-hand-drawn-lettering-phrase-motivation-quote-design-element-for-poster-card-bann-e1544067441793.jpg",
+      "id": 9
+    }
+  ]
+}
