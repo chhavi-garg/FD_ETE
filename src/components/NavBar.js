@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-    let username = "Chhavi";
+    let username = "username";
 
     // const handleClick = (e)=>
     // {

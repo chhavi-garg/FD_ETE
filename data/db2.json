@@ -53,6 +53,12 @@
       "email": "chhavi@gmail.com",
       "password": "cutie",
       "id": 9
+    },
+    {
+      "username": "raghavgupta",
+      "email": "raghav@gmail.com",
+      "password": "raghav123",
+      "id": 10
     }
   ]
 }
