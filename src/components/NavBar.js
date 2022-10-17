@@ -24,8 +24,9 @@ const NavBar = () => {
             <div className="links-right">
                 
                 <Link to="/" style={{ 
-                    color: 'white', 
-                    backgroundColor: '#f1356d',
+                    color: '#f1356d', 
+                    backgroundColor: 'white',
+                    fontWeight:'bold',
                     borderRadius: '8px' }}>Logout</Link>
             </div>
            

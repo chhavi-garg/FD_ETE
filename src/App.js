@@ -7,6 +7,7 @@ import NotFound from './components/NotFound';
 import Edit from "./components/Edit";
 import SignUp from './components/SignUp';
 import Login from './components/Login';
+import Landing from './components/Landing';
 
 
 // function App() {
@@ -56,6 +57,9 @@ function App() {
             </Route>
             <Route path="/signup">
              <SignUp />
+            </Route>
+            <Route path="/landing">
+             <Landing/>
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />
