@@ -4,6 +4,11 @@ import useFetch from "./useFetch";
 import { useEffect } from "react";
 import { useRef } from "react";
 import Home from './Home';
+import Button from "./Button";
+import { Link } from "react-router-dom";
+import NewNavbar from "./NewNavbar";
+import NavBar from "./NavBar";
+import App from "../App";
 
 // import { useParams } from "react-router-dom";
 
@@ -69,7 +74,9 @@ const Login = () => {
         const userp = obj.password;
         if(username===usern && password===userp){
             console.log("user found")
+            {<App usern={usern}/>}
             history.push('/')
+            
             // SetUserfound(true);
             // console.log("user found")
             // break;
@@ -87,7 +94,6 @@ const Login = () => {
 
     return (  
 
-        
         <div className="login">
             {/* <p>{user}</p> */}
             <h2>Login</h2>
@@ -107,6 +113,10 @@ const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
             />
             <button>Login</button>
+            <p>
+                Not a user ? 
+                <Link to="/signup">SignUp</Link>
+            </p>
             </form>
 
             </div>

@@ -1,7 +1,14 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
-    let username = "username";
+const NavBar = (usern) => {
+    // let username = "username";
+    const [ide , setIde] = useState('')
+    console.log(usern)
+
+    const handlenewUser = ({name}) =>{
+        setIde(name);
+    }
 
     // const handleClick = (e)=>
     // {
@@ -20,10 +27,10 @@ const NavBar = () => {
                 {/* <button onClick={handleClick}>Click Me</button>
                 <button onClick={handleClickAgain('Chhavi')}>Click Me Again</button> */}
             </div>
-            <h1 className="username">Welcome {username}! </h1>
+            <h1 className="username">Welcome {ide} ! </h1>
             <div className="links-right">
                 
-                <Link to="/" style={{ 
+                <Link to="/login" style={{ 
                     color: '#f1356d', 
                     backgroundColor: 'white',
                     fontWeight:'bold',

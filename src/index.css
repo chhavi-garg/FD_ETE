@@ -42,7 +42,7 @@
 .navbar a:hover {
   color:whitesmoke;
 }
-.content {
+/* .content {
   max-width: 700px;
   margin: 40px auto;
   padding: 20px;
@@ -93,6 +93,7 @@
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
+  margin-top: 20vh;
 }
 .create label {
   text-align: left;
@@ -128,6 +129,7 @@
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
+  margin-top: 20vh;
 }
 .signup label {
   text-align: left;

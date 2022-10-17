@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
     const [username, setUsername] = useState('');
@@ -16,7 +17,7 @@ const SignUp = () => {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(user)
         }).then(() => {
-          history.push('/');
+          history.push('/login');
         })
       }
     return (  
@@ -45,6 +46,10 @@ const SignUp = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
         <button>Sign Up</button>
+        <p>
+              Already a user ? 
+              <Link to="/login">Login</Link>
+        </p>
       </form>
     </div>
     );
