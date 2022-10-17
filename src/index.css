@@ -47,9 +47,16 @@
   margin: 40px auto;
   padding: 20px;
   background-color: rgb(253, 239, 239);
+} */
+
+.home{
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(253, 239, 239);
 }
 
-/* blog previews / list */
+/* blog previews / list
 .blog-preview {
   padding: 10px 16px;
   margin: 10px 0;
@@ -125,22 +132,22 @@
 }
 
 /* signup  */
-.signup {
+.signup, .login {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
   margin-top: 20vh;
 }
-.signup label {
+.signup label , .login label{
   text-align: left;
   display: block;
 }
-.signup h2 {
+.signup h2 , .login h2{
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 30px;
 }
-.signup input, .signup select {
+.signup input, .signup select , .login input  {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
@@ -148,7 +155,7 @@
   box-sizing: border-box;
   display: block;
 }
-.signup button {
+.signup button , .login button{
   background: #f1356d;
   font-size: 18px;
   color: #fff;
@@ -161,7 +168,7 @@
 }
 
 /* login  */
-.login {
+/* .login {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
@@ -193,7 +200,7 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
-}
+} */
 
 /* Landing */
 .lamp-container{

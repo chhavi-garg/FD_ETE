@@ -7,11 +7,13 @@ const Home = ({usern}) => {
   const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs')
 
   return (
-    <div className="home">
+    <div className="container">
       <NavBar usern={usern}/>
+      <div className="home">
       { error && <div>{ error }</div> }
       { isPending && <div>Loading...</div> }
       { blogs && <BlogList blogs={blogs} /> }
+      </div>
     </div>
   );
 }
