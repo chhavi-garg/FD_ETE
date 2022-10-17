@@ -1,4 +1,5 @@
 import { useHistory, useParams } from "react-router-dom";
+import NavBar from "./NavBar";
 import useFetch from "./useFetch";
 
 const BlogDetails = () => {
@@ -21,7 +22,11 @@ const BlogDetails = () => {
     history.push(`/edit/${blog.id}`);
 };
   return (
-    <div className="blog-details">
+    <div className="container">
+      <NavBar/>
+    <div className="home">
+      
+      <div className="blog-details">
       { isPending && <div>Loading...</div> }
       { error && <div>{ error }</div> }
       { blog && (
@@ -39,6 +44,8 @@ const BlogDetails = () => {
           </div>
         </article>
       )}
+      </div>
+    </div>
     </div>
   );
 }

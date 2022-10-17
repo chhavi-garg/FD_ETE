@@ -27,7 +27,8 @@ const NavBar = (usern) => {
                 {/* <button onClick={handleClick}>Click Me</button>
                 <button onClick={handleClickAgain('Chhavi')}>Click Me Again</button> */}
             </div>
-            <h1 className="username">Welcome {ide} ! </h1>
+            <h1 className="username">Welcome user ! </h1>
+            {/* Welcome {ide}  */}
             <div className="links-right">
                 
                 <Link to="/login" style={{ 
