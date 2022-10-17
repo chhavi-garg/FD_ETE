@@ -41,25 +41,26 @@ import NewNavbar from './components/NewNavbar';
 
 // After Routing -->
 
-function App(usern) {
+function App({username}) {
   return (
     <Router>
       <div className="App">
         {/* <NavBar /> */}
-        {/* <Route exact path="/land">
+        {/* <Route exact path="/">
               <Land />
             </Route> */}
         <div className="content">
           <Switch> 
+          <Route path="/login">
+             <Login />
+            </Route>
             <Route exact path="/">
-              <Home usern={usern}/>
+              <Home username={username}/>
             </Route>
             <Route path="/create">
               <Create />
             </Route>
-            <Route path="/login">
-             <Login />
-            </Route>
+            
             <Route path="/signup">
              <SignUp />
             </Route>
