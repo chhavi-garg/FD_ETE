@@ -7,6 +7,8 @@ import NotFound from './components/NotFound';
 import Edit from "./components/Edit";
 import SignUp from './components/SignUp';
 import Login from './components/Login';
+import Land from './components/starting/Land';
+import NewNavbar from './components/NewNavbar';
 
 
 // function App() {
@@ -38,15 +40,18 @@ import Login from './components/Login';
 
 // After Routing -->
 
-function App() {
+function App(usern) {
   return (
     <Router>
       <div className="App">
-        <NavBar />
+        {/* <NavBar /> */}
+        {/* <Route exact path="/land">
+              <Land />
+            </Route> */}
         <div className="content">
-          <Switch>
+          <Switch> 
             <Route exact path="/">
-              <Home />
+              <Home usern={usern}/>
             </Route>
             <Route path="/create">
               <Create />

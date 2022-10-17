@@ -37,11 +37,11 @@
 .navbar a:hover {
   color: #f1356d;
 }
-.content {
+/* .content {
   max-width: 700px;
   margin: 40px auto;
   padding: 20px;
-}
+} */
 
 /* blog previews / list */
 .blog-preview {
@@ -84,6 +84,7 @@
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
+  margin-top: 20vh;
 }
 .create label {
   text-align: left;
@@ -117,6 +118,7 @@
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
+  margin-top: 20vh;
 }
 .signup label {
   text-align: left;
@@ -150,6 +152,7 @@
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
+  margin-top: 20vh;
 }
 .login label {
   text-align: left;
