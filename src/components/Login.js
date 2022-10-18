@@ -21,6 +21,7 @@ const Login = () => {
     const history = useHistory();
     const [userfound,SetUserfound] = useState(false);
     const dataFetchedRef=useRef(false);
+    
     // const {id} = useParams();
     // const { error, isPending, data: users } = useFetch('http://localhost:8080/users');
 
@@ -74,7 +75,7 @@ const Login = () => {
         const userp = obj.password;
         if(username===usern && password===userp){
             console.log("user found")
-            {<App usern={usern}/>}
+            {<App username={username}/>}
             history.push('/')
             
             // SetUserfound(true);
@@ -103,7 +104,9 @@ const Login = () => {
             type="text" 
             required 
             value={username}
-            onChange={(e) => setUsername(e.target.value)}
+            onChange={(e) => {
+                setUsername(e.target.value)
+            }}
             /> 
             <label>Password:</label>
             <input 
@@ -112,7 +115,7 @@ const Login = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             />
-            <button>Login</button>
+            <button type="submit">Login</button>
             <p>
             <br />
             <b>

@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const NavBar = (usern) => {
+const NavBar = ({username}) => {
     // let username = "username";
     const [ide , setIde] = useState('')
-    console.log(usern)
+    console.log("username = "+username)
 
     const handlenewUser = ({name}) =>{
         setIde(name);
