@@ -114,8 +114,12 @@ const Login = () => {
             />
             <button>Login</button>
             <p>
-                Not a user ? 
+            <br />
+            <b>
+            Not a user ? 
                 <Link to="/signup">SignUp</Link>
+            </b>
+               
             </p>
             </form>
 

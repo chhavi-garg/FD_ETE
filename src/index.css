@@ -10,6 +10,12 @@
 /* div:not(.navbar, .content){
   background-image: url('https://thumbs.dreamstime.com/b/newspaper-old-grunge-vintage-unreadable-paper-texture-background-text-blurred-news-horizontal-textured-page-gray-collage-134798363.jpg');
 } */
+body
+{
+  background-image: url('https://c.tenor.com/JNAEHYCTYecAAAAC/aesthetic.gif');
+  background-size: cover;
+  /* background-image: url('https://i.pinimg.com/originals/74/43/a3/7443a31b6a19e5630b94a6538ff9bdd1.gif'); */
+}
 .navbar {
   padding: 20px;
   display: flex;
@@ -97,8 +103,10 @@
 
 /* create new blog form */
 .create {
-  max-width: 400px;
-  margin: 0 auto;
+  background-color: rgb(253, 239, 239);
+  width: 500px;
+  margin: 5px auto;
+  padding: 20px 20px 20px 20px;
   text-align: center;
   margin-top: 20vh;
 }
@@ -133,7 +141,11 @@
 
 /* signup  */
 .signup, .login {
-  max-width: 400px;
+  background-color: rgb(253, 239, 239);
+  margin: 5px auto;
+  padding: 20px 20px 20px 20px;
+  max-width: 600px;
+  max-height: 700px;
   margin: 0 auto;
   text-align: center;
   margin-top: 20vh;
@@ -143,7 +155,8 @@
   display: block;
 }
 .signup h2 , .login h2{
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
   color: #f1356d;
   margin-bottom: 30px;
 }
@@ -166,41 +179,6 @@
   height: max-content;
   cursor: pointer;
 }
-
-/* login  */
-/* .login {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  width:max-content;
-  height: max-content;
-}
-.login label {
-  text-align: left;
-  display: block;
-}
-.login h2 {
-  font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 30px;
-}
-.login input, .login select {
-  width: 100%;
-  padding: 6px 10px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  display: block;
-}
-.login button {
-  font-size: 18px;
-  background: #f1356d;
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-} */
 
 /* Landing */
 .lamp-container{
